@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A15B98C1F3D987C00CD9DEE /* RCUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A15B98B1F3D987C00CD9DEE /* RCUserDefaults.swift */; };
+		DC06E9A31F3632EF00D0F67D /* RCHelperTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC06E9A21F3632EF00D0F67D /* RCHelperTools.swift */; };
+		DC3B43621F35C32900270CD6 /* RCiTunesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3B43611F35C32900270CD6 /* RCiTunesController.swift */; };
+		DC3B43641F35C34600270CD6 /* RCLyricsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3B43631F35C34600270CD6 /* RCLyricsManager.swift */; };
+		DC7B1C6B1F35B92D00C9E065 /* RCAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7B1C6A1F35B92D00C9E065 /* RCAppDelegate.swift */; };
+		DC7B1C6D1F35B92D00C9E065 /* RCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7B1C6C1F35B92D00C9E065 /* RCViewController.swift */; };
+		DC7B1C6F1F35B92D00C9E065 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC7B1C6E1F35B92D00C9E065 /* Assets.xcassets */; };
+		DC7B1C721F35B92D00C9E065 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC7B1C701F35B92D00C9E065 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9A15B98B1F3D987C00CD9DEE /* RCUserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RCUserDefaults.swift; sourceTree = "<group>"; };
+		DC06E9A21F3632EF00D0F67D /* RCHelperTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RCHelperTools.swift; sourceTree = "<group>"; };
+		DC3B43611F35C32900270CD6 /* RCiTunesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RCiTunesController.swift; sourceTree = "<group>"; };
+		DC3B43631F35C34600270CD6 /* RCLyricsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RCLyricsManager.swift; sourceTree = "<group>"; };
+		DC7B1C671F35B92C00C9E065 /* Lyrics 3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lyrics 3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC7B1C6A1F35B92D00C9E065 /* RCAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RCAppDelegate.swift; sourceTree = "<group>"; };
+		DC7B1C6C1F35B92D00C9E065 /* RCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RCViewController.swift; sourceTree = "<group>"; };
+		DC7B1C6E1F35B92D00C9E065 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC7B1C711F35B92D00C9E065 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC7B1C731F35B92D00C9E065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC7B1C641F35B92C00C9E065 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC7B1C5E1F35B92C00C9E065 = {
+			isa = PBXGroup;
+			children = (
+				DC7B1C691F35B92C00C9E065 /* Lyrics 3 */,
+				DC7B1C681F35B92C00C9E065 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC7B1C681F35B92C00C9E065 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC7B1C671F35B92C00C9E065 /* Lyrics 3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC7B1C691F35B92C00C9E065 /* Lyrics 3 */ = {
+			isa = PBXGroup;
+			children = (
+				DC7B1C6A1F35B92D00C9E065 /* RCAppDelegate.swift */,
+				DC7B1C6C1F35B92D00C9E065 /* RCViewController.swift */,
+				DC7B1C6E1F35B92D00C9E065 /* Assets.xcassets */,
+				DC7B1C701F35B92D00C9E065 /* Main.storyboard */,
+				DC7B1C731F35B92D00C9E065 /* Info.plist */,
+				DC3B43611F35C32900270CD6 /* RCiTunesController.swift */,
+				DC3B43631F35C34600270CD6 /* RCLyricsManager.swift */,
+				DC06E9A21F3632EF00D0F67D /* RCHelperTools.swift */,
+				9A15B98B1F3D987C00CD9DEE /* RCUserDefaults.swift */,
+			);
+			path = "Lyrics 3";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC7B1C661F35B92C00C9E065 /* Lyrics 3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC7B1C761F35B92D00C9E065 /* Build configuration list for PBXNativeTarget "Lyrics 3" */;
+			buildPhases = (
+				DC7B1C631F35B92C00C9E065 /* Sources */,
+				DC7B1C641F35B92C00C9E065 /* Frameworks */,
+				DC7B1C651F35B92C00C9E065 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lyrics 3";
+			productName = "Lyrics 3";
+			productReference = DC7B1C671F35B92C00C9E065 /* Lyrics 3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC7B1C5F1F35B92C00C9E065 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Felix D.";
+				TargetAttributes = {
+					DC7B1C661F35B92C00C9E065 = {
+						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DC7B1C621F35B92C00C9E065 /* Build configuration list for PBXProject "Lyrics 3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC7B1C5E1F35B92C00C9E065;
+			productRefGroup = DC7B1C681F35B92C00C9E065 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC7B1C661F35B92C00C9E065 /* Lyrics 3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC7B1C651F35B92C00C9E065 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC7B1C6F1F35B92D00C9E065 /* Assets.xcassets in Resources */,
+				DC7B1C721F35B92D00C9E065 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC7B1C631F35B92C00C9E065 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC7B1C6D1F35B92D00C9E065 /* RCViewController.swift in Sources */,
+				9A15B98C1F3D987C00CD9DEE /* RCUserDefaults.swift in Sources */,
+				DC7B1C6B1F35B92D00C9E065 /* RCAppDelegate.swift in Sources */,
+				DC3B43641F35C34600270CD6 /* RCLyricsManager.swift in Sources */,
+				DC3B43621F35C32900270CD6 /* RCiTunesController.swift in Sources */,
+				DC06E9A31F3632EF00D0F67D /* RCHelperTools.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC7B1C701F35B92D00C9E065 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC7B1C711F35B92D00C9E065 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC7B1C741F35B92D00C9E065 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+			};
+			name = Debug;
+		};
+		DC7B1C751F35B92D00C9E065 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+			};
+			name = Release;
+		};
+		DC7B1C771F35B92D00C9E065 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Lyrics 3/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.realCovfefe.Lyrics-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		DC7B1C781F35B92D00C9E065 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Lyrics 3/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.realCovfefe.Lyrics-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC7B1C621F35B92C00C9E065 /* Build configuration list for PBXProject "Lyrics 3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC7B1C741F35B92D00C9E065 /* Debug */,
+				DC7B1C751F35B92D00C9E065 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC7B1C761F35B92D00C9E065 /* Build configuration list for PBXNativeTarget "Lyrics 3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC7B1C771F35B92D00C9E065 /* Debug */,
+				DC7B1C781F35B92D00C9E065 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC7B1C5F1F35B92C00C9E065 /* Project object */;
+}
